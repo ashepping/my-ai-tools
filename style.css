@@ -1,97 +1,192 @@
-body {
+<!DOCTYPE html>
+<html lang="ru">
 
-    font-family: Arial, sans-serif;
+<head>
 
-    background-color: #f4f7fb;
+<meta charset="UTF-8">
 
-    margin: 0;
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    padding: 0;
+<title>AI Journey — мой путь в мире ИИ</title>
 
-    color: #333;
+<link rel="stylesheet" href="style.css">
 
-}
-
-
-
-header {
-
-    text-align: center;
-
-    padding: 40px;
-
-    background-color: white;
-
-}
+</head>
 
 
+<body>
 
-h1 {
 
-    color: #1f4e79;
+<header class="hero">
 
-    font-size: 42px;
+<h1>🤖 AI Journey</h1>
 
-}
+<p>Мой путь в мире искусственного интеллекта</p>
+
+</header>
 
 
 
-h2 {
+<section class="block">
 
-    color: #1f4e79;
+<h2>🚀 О проекте</h2>
 
-}
+<p>
+Этот сайт — моя личная база знаний и портфолио.
+Здесь я собираю AI-инструменты, эксперименты,
+проекты и результаты обучения.
+</p>
 
-
-
-section {
-
-    background: white;
-
-    margin: 25px auto;
-
-    padding: 25px;
-
-    max-width: 900px;
-
-    border-radius: 12px;
-
-}
+</section>
 
 
 
-.cards {
 
-    display: flex;
+<section class="block">
 
-    gap: 20px;
-
-    flex-wrap: wrap;
-
-}
+<h2>⭐ Мои AI-инструменты</h2>
 
 
-
-.card {
-
-    background-color: #eef5ff;
-
-    padding: 20px;
-
-    border-radius: 10px;
-
-    flex: 1;
-
-    min-width: 200px;
-
-}
+<div class="cards">
 
 
+<div class="card">
 
-footer {
+<h3>🧠 ChatGPT</h3>
 
-    text-align: center;
+<p>
+Универсальный AI-помощник для обучения,
+анализа информации, создания идей
+и работы с текстами.
+</p>
 
-    padding: 30px;
+<div class="rating">
+⭐ 9/10
+</div>
 
-}
+</div>
+
+
+
+<div class="card">
+
+<h3>✨ Genspark</h3>
+
+<p>
+AI-инструмент для поиска информации,
+создания решений и работы
+с современными технологиями.
+</p>
+
+<div class="rating">
+⭐ 8/10
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>🚀 Manus</h3>
+
+<p>
+AI-агент для выполнения задач,
+автоматизации процессов
+и экспериментов.
+</p>
+
+<div class="rating">
+⭐ 8/10
+</div>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section class="block">
+
+<h2>📚 Мой путь обучения</h2>
+
+
+<div class="timeline">
+
+
+<div>
+🔹 Знакомство с искусственным интеллектом
+</div>
+
+
+<div>
+🔹 Изучение ChatGPT
+</div>
+
+
+<div>
+🔹 Освоение GitHub
+</div>
+
+
+<div>
+🔹 Создание первого сайта
+</div>
+
+
+<div>
+🔹 Развитие AI Journey
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section class="block">
+
+
+<h2>🧪 Мои эксперименты</h2>
+
+
+<p>
+
+Здесь будут мои практические проекты:
+тестирование AI-инструментов,
+автоматизации и собственные разработки.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+<footer>
+
+<p>
+Создано во время обучения ИИ 🚀
+</p>
+
+</footer>
+
+
+
+</body>
+
+</html>
