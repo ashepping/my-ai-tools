@@ -13,6 +13,7 @@ body{
 }
 
 
+
 /* ==========================
    HEADER
 ========================== */
@@ -26,9 +27,9 @@ header{
 
     text-align:center;
 
-    min-height:330px;
+    min-height:320px;
 
-    padding:50px 20px;
+    padding:45px 20px;
 
     display:flex;
 
@@ -44,7 +45,7 @@ header h1{
 
     font-size:48px;
 
-    margin-bottom:10px;
+    margin-bottom:15px;
 
 }
 
@@ -54,7 +55,9 @@ header p{
 
     font-size:20px;
 
-    max-width:800px;
+    max-width:750px;
+
+    min-height:60px;
 
     margin:0 auto 30px;
 
@@ -112,7 +115,6 @@ nav a:hover{
 
 
 
-
 /* ==========================
    MAIN
 ========================== */
@@ -132,11 +134,13 @@ main{
 
 
 /* ==========================
-   CARDS
+   UNIVERSAL CARDS
 ========================== */
 
 
-.card{
+.card,
+.project-card{
+
 
     background:white;
 
@@ -148,21 +152,34 @@ main{
 
     box-shadow:0 8px 20px rgba(0,0,0,.08);
 
+    transition:.3s;
+
 }
 
 
 
-.card h2{
+.card:hover,
+.project-card:hover{
 
-    margin-bottom:20px;
+    transform:translateY(-5px);
+
+}
+
+
+
+.card h2,
+.project-card h3{
 
     color:#1e40af;
 
+    margin-bottom:20px;
+
 }
 
 
 
-.card p{
+.card p,
+.project-card p{
 
     margin-bottom:15px;
 
@@ -206,45 +223,11 @@ main{
 
 .project-card{
 
-    background:white;
-
-    border-radius:15px;
-
-    padding:25px;
-
     flex:1 1 300px;
 
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-
-    transition:.3s;
-
 }
 
 
-
-.project-card:hover{
-
-    transform:translateY(-5px);
-
-}
-
-
-
-.project-card h3{
-
-    color:#1e40af;
-
-    margin-bottom:15px;
-
-}
-
-
-
-.project-card p{
-
-    margin-bottom:15px;
-
-}
 
 
 
@@ -277,6 +260,7 @@ footer{
     margin-top:40px;
 
 }
+
 
 
 
